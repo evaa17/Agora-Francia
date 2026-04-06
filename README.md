@@ -102,25 +102,6 @@ La base de données fournie contient des comptes pré-remplis pour tester les 3 
 
 > Les mots de passe sont hashés en bcrypt dans la base de données. Pour tester rapidement, le plus simple est de créer un nouveau compte via la page `/register.php`.
 
-## Structure des fichiers
-
-main/
-├── accueil.php             # Page d'accueil
-├── parcourir.php           # Catalogue avec filtres et recherche
-├── articles.php            # Fiche détail d'un produit
-├── login.php / register.php
-├── panier.php / checkout.php
-├── compte.php              # Espace utilisateur (adapté au rôle)
-├── espace_acheteur.php
-├── espace_vendeur.php
-├── espace_admin.php
-├── notifications.php
-├── ajouter_produit.php
-├── mes_ventes.php
-├── negociations.php (logique)
-├── articles/               # Images des objets en vente
-└── image accueil/          # Assets de la page d'accueil
-
 ## Ce que j'ai appris
 
 - Conception et implémentation d'un système multi-rôles en PHP natif
