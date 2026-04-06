@@ -119,7 +119,7 @@ main/
 ├── mes_ventes.php
 ├── negociations.php (logique)
 ├── articles/               # Images des objets en vente
-├── image accueil/          # Assets de la page d'accueil
+└── image accueil/          # Assets de la page d'accueil
 
 ## Ce que j'ai appris
 
